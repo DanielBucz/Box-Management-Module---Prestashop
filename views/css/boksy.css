@@ -1,0 +1,37 @@
+
+#boksy-text {
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  text-align: center;
+  height: 100%;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.boksy-title {
+  font-size: 24px;
+}
+@media only screen and (max-width: 767px) {
+  #boksy-text {
+    background-size: 120%;
+    height: 90%;
+  }
+
+  .boksy-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #boksy-text {
+    background-size: cover;
+    height: 100%;
+  }
+
+  .boksy-title {
+    font-size: 30px;
+  }
+}
